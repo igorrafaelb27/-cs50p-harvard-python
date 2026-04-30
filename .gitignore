@@ -1,0 +1,27 @@
+# Arquivos de cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambientes virtuais
+venv/
+.env/
+
+# Configurações locais
+*.log
+*.sqlite3
+
+# Docker
+*.pid
+*.sock
+tmp/
+.env.docker
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
