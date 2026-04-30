@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  curso:
+    build: .
+    container_name: curso_python
+    volumes:
+      - .:/app
+    stdin_open: true
+    tty: true
